@@ -1,0 +1,29 @@
+# Secrets and credentials (never commit these)
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.secret
+secrets/
+
+# Local-only configuration (commit only *.example files)
+config/**/*.local
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
